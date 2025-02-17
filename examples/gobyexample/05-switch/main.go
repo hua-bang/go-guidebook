@@ -21,7 +21,7 @@ func main() {
 		fmt.Println("a is default")
 	}
 
-	t := time.Now();
+	t := time.Now()
 	switch {
 	case t.Hour() < 12:
 		fmt.Println("It's before noon")
